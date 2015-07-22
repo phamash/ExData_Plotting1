@@ -5,11 +5,11 @@ activity - The type of activity performed when the corresponding measurements we
 
 Measurements
 --------------------
-<ul>
-<ul>tBodyAccMeanX 
-<ul>tBodyAccMeanY 
-tBodyAccMeanZ 
-tBodyAccStdX 
+
+* tBodyAccMeanX 
+* tBodyAccMeanY 
+* tBodyAccMeanZ 
+- tBodyAccStdX 
 tBodyAccStdY 
 tBodyAccStdZ 
 tGravityAccMeanX 
@@ -83,20 +83,20 @@ fBodyBodyGyroMagMean
 fBodyBodyGyroMagStd 
 fBodyBodyGyroMagMeanFreq 
 fBodyBodyGyroJerkMagMean 
-fBodyBodyGyroJerkMagStd 
-fBodyBodyGyroJerkMagMeanFreq 
-</ul>
+-fBodyBodyGyroJerkMagStd 
+-fBodyBodyGyroJerkMagMeanFreq 
+
 
 Activity Labels
 --------------------
-<ul>
+
 WALKING (value 1): subject was walking during the test 
 WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test 
 WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test 
 SITTING (value 4): subject was sitting during the test 
 STANDING (value 5): subject was standing during the test 
 LAYING (value 6): subject was laying down during the test 
-</ul>
+
 Variables
 --------------------
 x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
